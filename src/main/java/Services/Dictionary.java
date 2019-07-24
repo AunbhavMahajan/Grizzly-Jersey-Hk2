@@ -1,4 +1,4 @@
-package main.java.spellchecker.service;
+package main.java.Services;
 
 import org.jvnet.hk2.annotations.Service;
 

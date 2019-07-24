@@ -25,7 +25,7 @@ dependencies {
     //The above dependency was giving InjectionManagerFactory not found. To remove that we added the below dependency
     compile 'org.glassfish.jersey.inject:jersey-hk2:2.28'
 
-    compile group: 'org.glassfish.hk2', name: 'hk2-metadata-generator', version: '2.5.+'
+    compile group: 'org.glassfish.hk2', name: 'hk2-metadata-generator', version: '2.+'
 
 
 

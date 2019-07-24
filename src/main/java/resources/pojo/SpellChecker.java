@@ -1,16 +1,11 @@
-package main.java.spellchecker.pojo;
+package main.java.resources.pojo;
 
-import main.java.spellchecker.service.Dictionary;
-import org.jvnet.hk2.annotations.Service;
+import main.java.Services.Dictionary;
 
-import javax.inject.Inject;
-
-@Service
 public class SpellChecker {
 
     private Dictionary dictionary;
 
-    @Inject
     public SpellChecker(Dictionary dictionary) {
         System.out.println("Inside spell checker const");
         this.dictionary = dictionary;
